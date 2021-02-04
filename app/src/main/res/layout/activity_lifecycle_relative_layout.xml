@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/txtLayoutHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:text="And I am Iron Man"
+        android:textSize="25sp"
+        android:padding="15dp"
+        android:textStyle="bold"
+        android:textColor="#b71c1c"
+        android:layout_gravity="bottom"/>
+    <TextView
+        android:id="@+id/txtLayoutSubHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="240dp"
+        android:text="-Iron Man"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="#f9a825"
+        android:layout_below="@id/txtLayoutHeader"/>
+    <ImageView
+        android:id="@+id/imgTonyStark"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_margin="30dp"
+        android:src="@drawable/tony_stark_new"
+        android:layout_gravity="start"
+        android:layout_centerInParent="true"/>
+    <Button
+        android:id="@+id/btnClickForMore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click Here for more."
+        android:textStyle="bold"
+        android:background="#ff3d00"
+        android:textColor="#e3f2fd"
+        android:layout_alignParentBottom="true"/>
+    <EditText
+        android:id="@+id/etWriteAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Write your Answer"
+        android:layout_margin="20dp"
+        android:inputType="text"
+        android:layout_below="@id/txtLayoutSubHeader"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:text="And I am Iron Man"
+        android:textSize="25sp"
+        android:padding="15dp"
+        android:textStyle="bold"
+        android:textColor="#b71c1c"
+        android:layout_gravity="bottom"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="240dp"
+        android:text="-Iron Man"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="#f9a825"/>
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_margin="30dp"
+        android:src="@drawable/tony_stark_new"
+        android:layout_gravity="start"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="He is the greatest. you agree?"
+        android:textStyle="bold"
+        android:background="#ff3d00"
+        android:textColor="#e3f2fd"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Write your Answer"
+        android:layout_margin="20dp"
+        android:inputType="text"/>
+
+
+</LinearLayout>
